@@ -1,0 +1,16 @@
+torch
+transformers
+whisper
+gtts
+pygame
+pymongo
+langdetect
+reportlab
+deep-translator
+sounddevice
+scipy
+bson
+cryptography
+llama-cpp-python
+huggingface_hub
+ctransformers
