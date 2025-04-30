@@ -1,0 +1,128 @@
+{   
+    "demographic" : {
+        "name" : "What is your name?",
+        "age" : "What is your age?",
+        "gender" : "What is your gender?",
+        "contact" : "What is your contact?"
+    },
+    "general_questions" : {
+        "Recent Changes": "Have you made any recent changes in diet, lifestyle, or environment?",
+        "Medications or Remedies Tried": "Have you taken any medication or tried any remedies for your condition?",
+        "Inheritance/Allergies": "Do you have any health condition/allergies or family history of related symptoms/problems of any sort?"
+    },
+    "per_symptom": {
+        "Duration": "How long have this symptom been going on?",
+        "Severity": "Rate the severity of this symptom on a scale of 1 to 10 (1 being least severe and 10 being most severe).",
+        "Frequency": "How often does this symptom occur?"
+        },
+    "symptoms" : [
+        "memory loss", "forgetfulness", "short-term memory issue", "long-term memory issue", 
+        "brain fog", "difficulty concentrating", "lack of focus", "confusion", 
+        "disorientation", "decision-making issues", "problem-solving difficulties", 
+        "personality change", "mood swing", "depression", "anxiety", 
+        "nervousness", "hallucination", "seeing things", "delusion", 
+        "language problem", "trouble speaking", "trouble understanding speech", "aphasia",
+
+        "muscle weakness", "weak muscles", "weakness in arms", "weakness in legs", 
+        "paralysis", "can't move arm", "can't move leg", "tremor", 
+        "shaking", "hands shaking", "body shaking", "muscle stiffness", 
+        "rigid muscles", "cramps", "spasms", "jerking movements", 
+        "difficulty walking", "walking problem", "clumsy", "slowness", 
+        "slow movement", "chorea", "involuntary movement", "uncontrolled movement",
+
+        "numbness", "tingling", "pins and needles", "burning sensation", 
+        "loss of sensation", "can't feel", "heightened sensitivity", 
+        "overly sensitive skin", "phantom limb pain", "blurred vision", 
+        "double vision", "vision loss", "hearing problem", "ringing in ears", 
+        "tinnitus", "smell problem", "taste problem",
+
+        "headache", "migraine", "tension headache", "cluster headache", 
+        "facial pain", "sharp face pain", "trigeminal neuralgia", 
+        "neuropathic pain", "nerve pain", "back pain", "sciatica", 
+        "lower back pain",
+        
+        "dizziness", "lightheadedness", "fainting", "syncope", 
+        "low blood pressure", "high blood pressure", "irregular heartbeat", 
+        "heart palpitations", "difficulty swallowing", "trouble swallowing", 
+        "excessive sweating", "sweaty", "dry skin", "bladder problem", 
+        "urinary retention", "incontinence", "sexual dysfunction", 
+        "erectile dysfunction",
+        
+        "seizure", "fit", "convulsion", "epilepsy", "aura", 
+        "blackout", "unconsciousness", "jerking movements", "postictal confusion", 
+        "post-seizure tiredness", "twitching", 
+        
+        "insomnia", "can't sleep", "difficulty sleeping", "daytime sleepiness", 
+        "sleep paralysis", "restless legs", "sleep apnea", "narcolepsy",
+        
+        "slurred speech", "trouble speaking", "stuttering", 
+        "difficulty finding words", "dysarthria", "trouble swallowing", 
+        "dysphagia",
+
+        "irritability", "easily annoyed", "apathy", "lack of interest", 
+        "agitation", "emotional outbursts", "motivation problems", 
+        "lethargy", "low energy",
+        
+        "fatigue", "tiredness", "weakness", "loss of balance", 
+        "vertigo", "spinning sensation", "blackout", "unexplained weight loss", 
+        "unexplained weight gain","Fever", "Chills", "Fatigue", "Weakness", "Sweating", "Unexplained weight loss", "Loss of appetite",
+
+        "Cough", "Shortness of breath", "Wheezing", "Chest tightness", "Sore throat", "Runny nose", "Nasal congestion",
+
+        "Chest pain", "Palpitations", "Dizziness", "Fainting", "Swelling in the legs or ankles",
+
+        "Nausea", "Vomiting", "Diarrhea", "Constipation", "Abdominal pain", "Heartburn", "Bloating", "Blood in stool",
+
+        "Headache", "Seizures", "Confusion", "Memory loss", "Numbness or tingling", "Difficulty walking", 
+        "Tremors", "Muscle weakness", "Sleep disturbances", "Dizziness", "Loss of balance",
+
+        "Rash", "Itching", "Hives", "Dry skin", "Changes in skin color", "Hair loss", "Swelling", 
+        "Bruising easily", "Lumps or growths", "Open sores",
+
+        "Joint pain", "Muscle pain", "Stiffness", "Swelling in joints", "Back pain", "Difficulty moving",
+
+        "Blurred vision", "Double vision", "Eye pain", "Redness in the eyes", "Sensitivity to light", 
+        "Tearing", "Dry eyes",
+
+        "Hearing loss", "Ringing in the ears (tinnitus)", "Ear pain", "Ear discharge",
+
+        "Anxiety", "Depression", "Mood swings", "Irritability", "Difficulty concentrating", "Hallucinations",
+
+        "Frequent urination", "Painful urination", "Blood in urine", "Incontinence", "Difficulty urinating",
+
+        "Excessive thirst", "Frequent hunger", "Weight gain", "Hot flashes", "Cold intolerance", 
+        "Excessive sweating",
+
+        "Irregular periods", "Painful periods", "Unusual vaginal discharge", "Erectile dysfunction", 
+        "Testicular pain", "Infertility",
+
+        "Persistent cough or hoarseness", "Swollen lymph nodes", "Bleeding gums", "Bad breath", 
+        "Chronic pain", "Unusual body odor"
+    ],
+
+    "severity_keywords": [
+        "mild", "slight", "light", "low", "subtle", "minor", "faint", "dull", "weak", 
+        "minorly", "tolerable", "moderate", "average", "medium", "mild-moderate", "considerable", 
+        "medium-level", "noticeable", "somewhat", "bearable", "severe", "intense", "extreme", 
+        "strong", "sharp", "excruciating", "high", "agonizing", "unbearable", "debilitating", 
+        "overwhelming", "crippling", "distressing", "heavy", "debilitating", "agonizing", "life-threatening", 
+        "incapacitating", "horrific", "catastrophic", "intolerable", "acute", "chronic", "persistent", 
+        "constant", "temporary", "sudden", "sudden onset", "continuous", "throbbing", "pulsating", "severity 1", "severity 2", "severity 3", "severity 4", "severity 5", "severity 6", "severity 7", "severity 8", "severity 9", "severity 10"
+    ],
+    "frequency_keywords": [
+        "once", "twice", "thrice", "everyday", "daily", "weekly", "biweekly", "monthly", "yearly",
+        "hourly", "every hour", "every few hours", "every two hours", "every three hours",
+        "morning", "afternoon", "evening", "night", "most often",
+        "once a day", "twice a day", "thrice a day", "four times a day", "five times a day",
+        "every morning", "every evening", "every night", "every weekend",
+        "on weekends", "on weekdays", "on alternate days", "every other day",
+        "once a week", "twice a week", "three times a week",
+        "once a month", "twice a month", "three times a month",
+        "once a year", "twice a year", "annually",
+        "sporadically", "occasionally", "rarely", "frequently", "constantly", "intermittently",
+        "all day", "throughout the day", "off and on", "periodically",
+        "every 5 minutes", "every 10 minutes", "every 15 minutes", "every 30 minutes",
+        "every quarter", "quarterly", "biannually", "semiannually"
+    ]
+      
+}
